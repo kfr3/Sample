@@ -11,7 +11,7 @@ body{
 .dm-sans-regular {
     font-family: "DM Sans", serif;
     font-optical-sizing: auto;
-    font-weight: 900;
+    font-weight: 300;
     font-style: normal;
   }
 
@@ -44,6 +44,87 @@ body{
     font-family: Faculty Glyphic, serif;
 }
 
+h2{
+    color: black;
+    font-family: Faculty Glyphic, serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    text-align: left;
+}
+
+.hero-content {
+    display: flex;
+    align-items: left;
+    gap: 20px; /* Space between text and image */
+    max-width: 100%;
+    /*margin: 0 auto;*/
+    padding-top: 0px;
+    flex-wrap: wrap; /* Ensures it adapts to smaller screens */
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    color: black;
+    font-family: Faculty Glyphic, serif;
+    padding: 20px;
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-family: DM Sans;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.hero-text .learn-more {
+    padding: 15px 30px;
+    font-size: 16px;
+    /*font-weight: bold;*/
+    background-color: #007a87;
+    border: solid 2px white;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    float: center;
+    margin-left: 250px;
+    font-family: Faculty Glyphic, serif;
+}
+
+/* link styling */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+  }
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    margin-right: 0;
+    right: 0px;
+} 
+
+.hero-image img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 0;
+    float: left;
+}
+
   /* sidebar navigation */
 
   .sidenav {
@@ -68,7 +149,7 @@ body{
     color: white;
     display: block;
     transition: 0.3s;
-    font-family: Helvetica, sans-serif;
+    font-family: Faculty Glyphic, serif;
   }
   
   /* When you mouse over the navigation links, change their color */
