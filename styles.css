@@ -1,3 +1,155 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: #f5bf7d;
+}
+
+.dm-sans-regular {
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+.faculty-glyphic-regular {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.header {
+    padding: 20px;
+    margin: 0px;
+    text-align: left;
+    background: #007a87;
+    color: white;
+    font-size: 16px;
+    font-family: Faculty Glyphic, serif;
+    display: flex;
+    justify-content: space-between; /* Horizontal alignment */
+    align-items: flex-start; 
+  }
+
+.content {
+    padding: 10px;
+    margin: 0px;
+    text-align: right;
+    background: #007a87;
+    color: white;
+    font-size: 16px;
+    font-family: Faculty Glyphic, serif;
+}
+
+  /* sidebar navigation */
+
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 85px; /* Stay at the top */
+    right: 0;
+    background-color: #007a87; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    border: solid 6px white; 
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /*
+  .sidenav {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    left: 0px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    border: 4px solid #007a87;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFAD00;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  */
+
+  /*
+  .main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    /*font-size: 28px; /* Increased text to enable scrolling */
+   /* padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
 .file { 
     margin: 20px;
     padding: 5px;
@@ -74,4 +226,4 @@
     width: 90%;
     height: 90%;
     object-fit: cover;
-}
+}**/
